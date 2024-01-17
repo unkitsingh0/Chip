@@ -1,0 +1,101 @@
+/* Styles for the container of the entire component */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+/* Styles for the main box within the container */
+.box {
+  width: 60%;
+}
+
+/* Styles for the container of chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-bottom: 2px solid #076df2;
+}
+/* Styles for individual chips */
+.chip {
+  background-color: #d3d5d6;
+  color: #2d3748;
+  padding: 1px 10px 0 0;
+  margin: 4px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* Additional styles for highlighted chip */
+.chipHighlights {
+  box-shadow: 0 1px 10px rgba(0, 255, 255, 0.7);
+}
+/* Styles for the first letter icon in chips */
+#nameIcon0 {
+  background-color: rgb(188, 188, 244);
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+/* Styles for chip remove icon */
+.chip-remove {
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+/* Styles for the input field */
+.input {
+  padding: 4px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+/* Styles for the input placeholder */
+.input::placeholder {
+  font-size: 16px;
+}
+/* Styles for the list of items */
+.item-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  box-shadow: 0 1px 10px rgba(147, 147, 147, 0.7);
+  width: 40%;
+}
+/* Styles for individual items in the list */
+.item {
+  padding: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  overflow-y: scroll;
+}
+/* Styles for item p*/
+.item p {
+  padding: 7px;
+  display: flex;
+}
+/* Styles for item hover effect */
+.item:hover {
+  background-color: #d8dbde;
+}
+
+/* Styles for the first letter icon in items */
+#nameIcon {
+  background-color: rgb(188, 188, 244);
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Styles for the name and email in items */
+#listName {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/* Styles for the email in items */
+#listEmail {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 10px;
+}
